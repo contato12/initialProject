@@ -12,6 +12,7 @@ import { IonicModule } from '@ionic/angular';
 export class AppComponent {
   public appPages = [
     { title: 'Home', url: 'home', icon: 'home' },
+    { title: 'Alert', url: 'alert', icon: 'alert' },
     { title: 'Button', url: 'button', icon: 'close' },
     { title: 'Card', url: 'card', icon: 'card' },
   ];
