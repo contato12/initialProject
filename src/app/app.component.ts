@@ -15,6 +15,8 @@ export class AppComponent {
     { title: 'Alert', url: 'alert', icon: 'alert' },
     { title: 'Button', url: 'button', icon: 'close' },
     { title: 'Card', url: 'card', icon: 'card' },
+    { title: 'Accordion', url: 'accordion', icon: 'filter' },
+    { title: 'Action Sheet', url: 'actionsheet', icon: 'albums' },
   ];
   constructor() { }
 }

@@ -22,4 +22,12 @@ export const routes: Routes = [
     path: 'alert',
     loadComponent: () => import('./pages/components/alert/alert.page').then( m => m.AlertPage)
   },
+  {
+    path: 'accordion',
+    loadComponent: () => import('./pages/components/accordion/accordion.page').then( m => m.AccordionPage)
+  },
+  {
+    path: 'actionsheet',
+    loadComponent: () => import('./pages/components/actionsheet/actionsheet.page').then( m => m.ActionsheetPage)
+  },
 ];
