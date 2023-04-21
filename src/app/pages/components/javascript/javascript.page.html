@@ -7,10 +7,13 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">javascript</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
+  <ion-refresher slot="fixed">
+    <ion-refresher-content pullingIcon="arrow-dropdown" pullingText="Puxe para atualizar . . ."
+      refreshingSpinner="circles" refreshingText="Atualizando. . .">
+
+    </ion-refresher-content>
+  </ion-refresher>
+
+  <p>Pull this content down to trigger the refresh.</p>
 </ion-content>
