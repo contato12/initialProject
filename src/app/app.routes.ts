@@ -30,4 +30,12 @@ export const routes: Routes = [
     path: 'actionsheet',
     loadComponent: () => import('./pages/components/actionsheet/actionsheet.page').then( m => m.ActionsheetPage)
   },
+  {
+    path: 'tags',
+    loadComponent: () => import('./pages/components/tags/tags.page').then( m => m.TagsPage)
+  },
+  {
+    path: 'javascript',
+    loadComponent: () => import('./pages/components/javascript/javascript.page').then( m => m.JavascriptPage)
+  },
 ];

@@ -17,6 +17,8 @@ export class AppComponent {
     { title: 'Card', url: 'card', icon: 'card' },
     { title: 'Accordion', url: 'accordion', icon: 'filter' },
     { title: 'Action Sheet', url: 'actionsheet', icon: 'albums' },
+    { title: 'Tags', url: 'tags', icon: 'pricetags' },
+    { title: 'JavaScript', url: 'javascript', icon: 'code' },
   ];
   constructor() { }
 }
