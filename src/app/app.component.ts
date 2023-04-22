@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -10,7 +11,7 @@ import { IonicModule } from '@ionic/angular';
   imports: [IonicModule, RouterLink, RouterLinkActive, CommonModule],
 })
 export class AppComponent {
-  public appPages = [
+  public appComponentPages = [
     { title: 'Home', url: 'home', icon: 'home' },
     { title: 'Alert', url: 'alert', icon: 'alert' },
     { title: 'Button', url: 'button', icon: 'close' },
@@ -19,6 +20,12 @@ export class AppComponent {
     { title: 'Action Sheet', url: 'actionsheet', icon: 'albums' },
     { title: 'Tags', url: 'tags', icon: 'pricetags' },
     { title: 'JavaScript', url: 'javascript', icon: 'code' },
+    { title: 'DateTime', url: 'datetime', icon: 'calendar' },
   ];
+
+  public appNativePages = [
+    { title: 'Camera', url: 'camera', icon: 'camera' },
+  ];
+
   constructor() { }
 }

@@ -38,4 +38,12 @@ export const routes: Routes = [
     path: 'javascript',
     loadComponent: () => import('./pages/components/javascript/javascript.page').then( m => m.JavascriptPage)
   },
+  {
+    path: 'datetime',
+    loadComponent: () => import('./pages/components/datetime/datetime.page').then( m => m.DatetimePage)
+  },
+  {
+    path: 'camera',
+    loadComponent: () => import('./pages/natives/camera/camera.page').then( m => m.CameraPage)
+  },
 ];
